@@ -47,7 +47,7 @@ const convertCtoF=(temp,type)=>{
   return (
     <main className="App">
 
-      <input type='text' onChange={handleChange} placeholder='Enter a city...'/>
+      <input className='search' type='text' onChange={handleChange} placeholder='Enter a city...'/>
       <section>
         <div>
           <i className={`wi wi-owm-${weatherData.weather[0].id} display-1`}></i>
